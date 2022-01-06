@@ -11,7 +11,7 @@ function loader(){
     
     xmlhttp.onload = function() {
       myObj = JSON.parse(this.responseText);
-      let text = "<table border='1'>"         //początek tabeli
+      let text = "<table border='0'>"         //początek tabeli
 
 
       //ładowanie danych do tabeli za pomocą pętli
